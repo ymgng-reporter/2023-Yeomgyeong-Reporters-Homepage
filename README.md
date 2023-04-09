@@ -1,4 +1,4 @@
-# Project Title : Yeomgyeong Reporters Homepage
+# Project Title : 염경중학교 학생기자단 홈페이지
 
 # Getting Started with Create React App
 
