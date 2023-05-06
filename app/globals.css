@@ -44,17 +44,33 @@ main {
 }
 
 .container {
-  background-color: blue;
-  margin-top: 5vh;
+  margin-top: 7vh;
+}
+
+.reportsCategory {
+  margin-bottom: 1vh;
 }
 
 .reports {
   width: 100%;
   display: flex;
+  background-color: blue;
 }
 
 .report {
   width: 33%;
+  padding: 10px;
+}
+
+.reportTitle {
+  font-size: 1.4rem;
+  margin-bottom: 0.45vh;
+}
+
+.reportInfo {
+  font-size: 0.9rem;
+  color: gray;
+  padding-left: auto;
 }
 
 @media (prefers-color-scheme: dark) {

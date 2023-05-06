@@ -6,7 +6,6 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
     <main>
-      {/* image tag */}
       <header className="navbar">
         <Image
           src="/ymgng.PNG"
@@ -19,14 +18,16 @@ export default function Home() {
         <FontAwesomeIcon icon={faSearch} className="searchIcon" />
       </header>
       <div className="container">
-        <h1>새 기사</h1>
+        <h1 className="reportsCategory">새 기사</h1>
         <div className="reports">
           <div className="report">
             <h2 className="reportTitle">
               염경중학교, 새로운 2023년을 맞이하다
             </h2>
-            <span className="reportDate">2023. 05. 03</span>
-            <span className="reporter">이은교</span>
+            <div className="reportInfo">
+              <span className="reportDate">2023. 05. 03</span>
+              <span className="reporter">이은교</span>
+            </div>
           </div>
         </div>
       </div>
