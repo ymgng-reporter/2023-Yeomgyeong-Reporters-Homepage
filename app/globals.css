@@ -54,23 +54,33 @@ main {
 .reports {
   width: 100%;
   display: flex;
-  background-color: blue;
 }
 
 .report {
   width: 33%;
-  padding: 10px;
+  padding-top: 2px;
+}
+
+.reportHashtag {
+  color: blue;
+  font-size: 0.7rem;
+  padding-right: 0.2rem;
 }
 
 .reportTitle {
   font-size: 1.4rem;
+  margin-top: 0.45vh;
   margin-bottom: 0.45vh;
 }
 
 .reportInfo {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: gray;
   padding-left: auto;
+}
+
+.reportDate {
+  margin-right: 0.2rem;
 }
 
 @media (prefers-color-scheme: dark) {
