@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <header className="navbar">
         <Image
-          src="/ymgng.PNG"
+          src="/images/ymgng.jpg"
           alt="염경중학교 학생기자단"
           width={71}
           height={79}
@@ -21,6 +21,11 @@ export default function Home() {
         <h1 className="reportsCategory">새 기사</h1>
         <div className="reports">
           <div className="report">
+            <span className="reportHashtags">
+              <span className="reportHashtag">#염경중학교</span>
+              <span className="reportHashtag">#2023년</span>
+              <span className="reportHashtag">#학생기자단</span>
+            </span>
             <h2 className="reportTitle">
               염경중학교, 새로운 2023년을 맞이하다
             </h2>
