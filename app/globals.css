@@ -24,11 +24,16 @@ main {
   margin: auto;
 }
 
+a {
+  color: black;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   width: 100%;
   margin-top: 6vh;
+  padding-bottom: 3vh;
 }
 
 .headerTitle {
@@ -36,15 +41,31 @@ main {
   font-size: 1.75rem;
 }
 
-.searchIcon {
-  font-size: 1.4rem;
-  text-align: right;
-  /* right align */
+.headerRight {
   margin-left: auto;
 }
 
+.todayDate {
+  font-size: 1.1rem;
+  margin-bottom: 1vh;
+  margin-right: 0.75vw;
+}
+
+.searchIcon {
+  font-size: 1.4rem;
+  text-align: right;
+  margin-left: auto;
+}
+
+.headerDivider,
+.footerDivider {
+  width: 100%;
+  height: 0.1px;
+}
+
 .container {
-  margin-top: 7vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .reportsCategory {
@@ -58,11 +79,11 @@ main {
 
 .report {
   width: 33%;
-  padding-top: 2px;
+  padding-top: 1vh;
 }
 
 .reportHashtag {
-  color: blue;
+  color: #ff6b6b;
   font-size: 0.7rem;
   padding-right: 0.2rem;
 }
@@ -83,8 +104,26 @@ main {
   margin-right: 0.2rem;
 }
 
+.footer {
+  width: 100%;
+  margin-top: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+  a {
+    color: white;
   }
 }
