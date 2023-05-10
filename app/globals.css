@@ -75,10 +75,11 @@ a {
 .reports {
   width: 100%;
   display: flex;
+  justify-content: space-around; 
 }
 
 .report {
-  width: 33%;
+  width: 30%;
   padding-top: 1vh;
 }
 

@@ -59,6 +59,18 @@ export default function Home() {
               <span className="reporter">이은교</span>
             </div>
           </div>
+		<div className="report">
+		<span className="reportHashtags">
+		  <span className="reportHashtag">#테스트2</span>
+		  <span className="reportHashtag">#아2</span>
+		  <span className="reportHashtag">#일하기싫다2</span>
+		</span>
+		<h2 className="reportTitle">Hello, Yeomgyeong Middle School!</h2>
+		<div className="reportInfo">
+		  <span className="reportDate">2023. 05. 10</span>
+		  <span className="reporter">이은교</span>
+		</div>
+	  </div>
         </div>
       </div>
       <div className="footer">
