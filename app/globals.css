@@ -1,16 +1,18 @@
-@font-face {
+/* @font-face {
   font-family: "SUITE-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
     format("woff2");
   font-weight: 400;
   font-style: normal;
-}
+} */
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "SUITE-Regular", sans-serif;
+  font-family: Pretendard, sans-serif;
 }
 
 html,
@@ -64,7 +66,7 @@ a {
 }
 
 .container {
-  margin-top: 5vh;
+  margin-top: 4vh;
   margin-bottom: 5vh;
 }
 
@@ -83,8 +85,14 @@ a {
   padding-top: 1vh;
 }
 
+.report:nth-child(1),
+.report:nth-child(2) {
+  padding-right: 3vw;
+  border-right: solid thin #c9cfd1;
+}
+
 .reportHashtag {
-  color: #ff6b6b;
+  color: #1b99b5;
   font-size: 0.7rem;
   padding-right: 0.2rem;
 }
