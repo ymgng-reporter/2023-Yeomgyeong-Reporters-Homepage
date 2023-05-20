@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
 }
 
-main {
+body {
   width: 60%;
   margin: auto;
 }
@@ -36,6 +36,11 @@ a {
   width: 100%;
   margin-top: 6vh;
   padding-bottom: 3vh;
+}
+
+.logoImage {
+  width: 3.7vw;
+  height: auto;
 }
 
 .headerTitle {
@@ -83,12 +88,21 @@ a {
 .report {
   width: 30%;
   padding-top: 1vh;
+  padding-right: 3vw;
 }
 
 .report:nth-child(1),
 .report:nth-child(2) {
-  padding-right: 3vw;
   border-right: solid thin #c9cfd1;
+}
+
+.reportThumbnail {
+  width: 100%;
+}
+
+.reportThumbnailImage {
+  width: 100%;
+  height: 50%;
 }
 
 .reportHashtag {
