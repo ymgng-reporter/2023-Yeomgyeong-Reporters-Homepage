@@ -13,7 +13,7 @@ export default function Header() {
   const dayOfWeek = date.getDay();
   const day = ["일", "월", "화", "수", "목", "금", "토"];
   return (
-    <main>
+    <main className="headerMain">
       <header className="navbar">
         <Link
           href="/"
@@ -35,6 +35,19 @@ export default function Header() {
             {today} ({day[dayOfWeek]})
           </span>
           <FontAwesomeIcon icon={faSearch} className="searchIcon" />
+        </div>
+      </header>
+      <header className="navbar">
+        <div className="headerLeft">
+          <span className="reportsIntro">기사</span>
+        </div>
+        <div className="reportsCategories">
+          <span id="interviewsWithTeachers" className="reportsCategory">
+            선생님 인터뷰
+          </span>
+          <span id="educationalTravel" className="reportsCategory">
+            2, 3학년 교육여행
+          </span>
         </div>
       </header>
       <hr className="headerDivider" />

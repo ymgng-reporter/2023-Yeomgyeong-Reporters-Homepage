@@ -5,7 +5,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
 export default function Home() {
-  let reports = [
+  let newReports = [
     {
       title: "염경중학교 학생기자단(구 소식지반), 동아리 개편",
       hashtags: ["#염경중학교", "#2023년", "#학생기자단"],
@@ -34,9 +34,9 @@ export default function Home() {
   return (
     <main>
       <div className="container">
-        <h1 className="reportsCategory">새 기사</h1>
+        <h1 className="newReports">새 기사</h1>
         <div className="reports">
-          {reports.map((report, i) => {
+          {newReports.map((report, i) => {
             return (
               <div className="report" key={i}>
                 <div className="reportThumbnail">
