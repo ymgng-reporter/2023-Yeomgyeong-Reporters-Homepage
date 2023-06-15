@@ -30,12 +30,17 @@ a {
   color: black;
 }
 
+.headerMain {
+  width: 100%;
+  margin-top: 6vh;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   width: 100%;
-  margin-top: 6vh;
-  padding-bottom: 3vh;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
 }
 
 .logoImage {
@@ -62,6 +67,21 @@ a {
   font-size: 1.4rem;
   text-align: right;
   margin-left: auto;
+  vertical-align: middle;
+}
+
+.headerLeft {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-right: 0.875vw;
+  border-right: solid thin #c9cfd1;
+  margin-right: 0.875vw;
+}
+
+.reportsCategory {
+  font-size: 1.05rem;
+  padding-right: 0.875vw;
+  cursor: pointer;
 }
 
 .headerDivider,
@@ -75,7 +95,7 @@ a {
   margin-bottom: 5vh;
 }
 
-.reportsCategory {
+.newReports {
   margin-bottom: 1vh;
 }
 
