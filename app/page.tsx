@@ -34,32 +34,7 @@ export default function Home() {
   return (
     <main>
       <div className="container">
-        <h1 className="newReports">새 기사</h1>
-        <div className="reports">
-          {newReports.map((report, i) => {
-            return (
-              <div className="report" key={i}>
-                <div className="reportThumbnail">
-                  <img
-                    src={report.thumbnail}
-                    alt="기사 썸네일"
-                    className="reportThumbnailImage"
-                  />
-                </div>
-                <div className="reportHashtags">
-                  {report.hashtags.map((hashtag) => {
-                    return <span className="reportHashtag">{hashtag}</span>;
-                  })}
-                </div>
-                <h2 className="reportTitle">{report.title}</h2>
-                <div className="reportInfo">
-                  <span className="reportDate">{report.date}</span>
-                  <span className="reporter">{report.reporter}</span>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+		  <h1>2023년의 염경중학교 (임시 텍스트)</h1>
       </div>
     </main>
   );
